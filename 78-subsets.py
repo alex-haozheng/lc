@@ -4,7 +4,6 @@ subsets
 
 The solution set must not contain duplicate subsets. Return the solution in any order."""
 
-
 # recursive
 class Solution:
     def subsets(self, nums):
