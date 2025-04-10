@@ -27,6 +27,8 @@ class Solution:
                         mid += 1
                     while mid < right and nums[right] == nums[right - 1]: # Avoiding duplicates check
                         right -= 1
+                    # the while loop is checking for the following element 
+                    # thus the pointer will be on the same element that was just appended on this line
                     mid += 1
                     right -= 1
         return result
