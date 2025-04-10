@@ -13,7 +13,7 @@ def fn(graph):
     seen = {START_NODE}
     return dfs(START_NODE)
 
-# DFS iterativet
+# DFS iterative
 def fn(graph):
     stack = [START_NODE]
     seen = {START_NODE}
